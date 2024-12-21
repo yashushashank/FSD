@@ -1,0 +1,27 @@
+public class FirstAssesment{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+
+System.out.print("Enter a single character: "):
+String input = sc.nextLines();
+
+if(input.length() != 1){
+ 
+System.out.println("please enter exactly one character .");
+return;
+}
+
+char ch = input.charAt(0);
+
+if(Character.isLetter(ch)){
+System.out.println("The character is an alphabet. ");
+}
+else if(character.isDigit(ch)){
+System.out.println("The character is a number. ");
+}
+else{
+System.out.println("The character is a special character. ");
+}
+sc.close();
+}
+}
